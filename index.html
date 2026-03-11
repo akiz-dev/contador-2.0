@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="overlay"></div><!--overlay-->
+    <div class="msg__error">
+        <h3>[Erro]! Por favor digite os valores válidos em todos os campos.</h3>
+        <button type="reset" id="resetBtn">Tentar novamente</button>
+    </div><!--/msg__error-->
+        <header>
+            <h4>Contador</h4>
+        </header>
+        <section>
+            <div id="interface">
+                <label for="init">Número inicial:</label>
+                <input type="number" name="initNum" id="initNum">
+                <label for="end">Número Final:</label>
+                <input type="number" name="endNum" id="endNum">
+                <label for="step">Passo:</label>
+                <input type="number" name="stepNum" id="stepNum">
+                <input type="button" value="Contar" id="countButton">
+                <input type="reset" value="Reiniciar" id="reiniciarPrograma">
+            </div><!--/interface-->
+            <div id="display">
+    
+            </div><!--/display-->
+        </section>
+        <footer>
+            <p>&copy; CursoemVideo</p>
+        </footer>
+
+
+
+    <script src="js/jquery-4.0.0.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
